@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+ 	background-color: #faf3dd;
+ 	color:  #faf3dd;
+}
+
+/********************************
+Common Section start
+********************************/
+
+.container {
+	max-width: 1000px;
+	background-color: #68b0ab;
+	margin: 0 auto;
+}
+
+.content {
+		margin-bottom: 30px;
+	}
+	.left-div {
+		width: 30%;
+		float: left;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.right-div {
+		width: 65%;
+		float: left;
+		padding-left: 10px;
+	}
+	.common-hr {
+		border: solid black 1px;
+		width: 95%;
+		margin: 20px auto;
+		border-bottom: none;
+	}
+
+/********************************
+Common Section End
+********************************/
+
+
+
+
+
+/********************************
+Header Section start
+********************************/
+header {
+	padding: 20px; 
+}
+.profile-image {
+	width: 100px;
+	height: 120px;
+	border: 3px solid white;
+	border-radius: 50%;
+	float: left;
+}
+.header-bio {
+	float: left;
+	padding: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #faf3dd;
+}
+.header-contact {
+	float: right;
+	padding: 35px 30px 30px 30px;
+}
+.header-contact a{
+	text-decoration: none;
+	color: #faf3dd;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.header-contact a:hover {
+	text-decoration: underline;
+	color: tomato;
+	font-weight: bold;
+}
+.clear-both {
+	clear: both;
+}
+hr {
+	border: solid black 3px;
+	width: 95%;
+	margin: 20px auto;
+	border-bottom: none;
+}
+
+/********************************
+Header Section End
+********************************/
+
+
+
+
+
+/********************************
+Main Section Start.
+********************************/
+
+	/***********   Personal Section start  *************/
+
+	#personal-section {
+		padding: 20px; 
+	}
+	
+	/***********   Personal Section end  *************/
+
+	/***********   Work Experience section start  *************/
+
+	#work-experience-section {
+		padding: 20px; 
+	}
+
+	/***********  Work Experience  Section end  *************/
+
+	/***********   Skill Key Section Start  *************/
+
+	#Key-skill-section {
+		padding: 20px; 
+	}
+	.left-div-skill {
+		width: 30%;
+		float: left;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.right-div-skill {
+		width: 65%;
+		float: left;
+		padding-left: 20px;
+	}
+	.right-div-li li{
+		
+		list-style-type: none;
+		padding: 5px 0 5px 30px;
+	}
+
+	/***********   Skill Key Section end  *************/
+
+
+	/***********   Start Education Section  *************/
+	#education-section {
+		padding: 20px;
+	}
+	.left-education-div {
+		width: 45%;
+		float: left;
+		padding: 10px;
+		
+	}
+	.right-education-div {
+		width: 45%;
+		float: left;
+		padding: 10px
+	}
+
+	/***********   End Education Section  *************/
+
+
+/********************************
+Main Section End.
+********************************/
+
+
+
+/********************************
+Footer Section Start 
+********************************/
+
+
+.bottom-container {
+	background-color: #000;
+	text-align: center;
+	padding: 20px;
+}
+a {
+	padding-left: 10px;
+}
+.bottom-container a {
+	color:  #faf3dd;
+	text-decoration: none;
+}
+p {
+	padding: 10px;
+}
+p .me {
+	color: yellow;
+	font-weight: bold;
+	transition: 0.4s;
+	padding-left: 3px !important;
+}
+.me:hover {
+	color: red;
+}
+
+
+
+/********************************
+Footer Section End
+********************************/
